@@ -1,0 +1,30 @@
+{
+  "name": "capi-utils",
+  "version": "0.1.0",
+  "description": "Web And Node utils for make more easy to create web apps",
+  "author": "Victor Luna <victor.luna.mullisaca@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/victorlunam/capi-utils.git"
+  },
+  "keywords": [
+    "web",
+    "node",
+    "utils",
+    "javascript",
+    "typescript",
+    "user-agent",
+    "capi-utils"
+  ],
+  "scripts": {
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "devDependencies": {
+    "prettier": "^3.3.3",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  },
+  "packageManager": "pnpm@9.9.0"
+}
