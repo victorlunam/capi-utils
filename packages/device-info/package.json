@@ -1,0 +1,32 @@
+{
+  "name": "@capi-utils/device-info",
+  "version": "0.1.0",
+  "description": "Minimalistic library to get device info",
+  "author": "Victor Luna <victor.luna.mullisaca@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "device-info",
+    "user-agent",
+    "browser"
+  ],
+  "main": "dist/index.js",
+  "sideEffects": false,
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorlunam/capi-utils.git",
+    "directory": "packages/device-info"
+  },
+  "bugs": {
+    "url": "https://github.com/victorlunam/capi-utils/issues"
+  },
+  "scripts": {
+    "build": "tsup src --dts",
+    "typecheck": "tsc --noEmit"
+  }
+}
